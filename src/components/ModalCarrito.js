@@ -32,7 +32,7 @@ function ModalCarrito({ cartItems, onClose, updateCart, vaciarCarrito }) {
       //ruta local
       // const response = await axios.post('http://localhost:5000/api/orders', pedido);
       //ruta railWay
-      const response = await axios.post('https://fullfront-production.up.railway.app/api/orders', pedido); 
+      const response = await axios.post('https://fullback-production.up.railway.app/api/orders', pedido); 
       console.log('Pedido enviado:', response.data);
       alert('¡Pedido enviado con éxito!');
 
