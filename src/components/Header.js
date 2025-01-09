@@ -9,16 +9,43 @@ function Header({ abrirCarrito }) {
           Comida Venezolana
         </h1>
         {/* Llamar a abrirCarrito al hacer clic en el ícono del carrito */}
-       <a 
- 	 href="#" 
- 	 id="cartIcon" 
- 	onClick={(e) => {
- 	   e.preventDefault(); // Prevenir redirección
-  	  abrirCarrito(); // Llamar a la función
- 	 }}
-	>
- 	 <i className="fas fa-shopping-cart"></i> Carrito
-	</a>
+        <button
+            id="cartIcon"
+            onClick={abrirCarrito}
+            style={{
+              backgroundColor: '#FFD700', // Color de fondo
+              padding: '10px 20px',
+              borderRadius: '5px',
+              cursor: 'pointer',
+              display: 'inline-flex',
+              alignItems: 'center',
+              gap: '10px',
+              border: 'none',
+              font: 'inherit',
+            }}
+          >
+            {/* Logotipo de carrito */}
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              style={{
+                width: '20px', // Tamaño del logotipo
+                height: '20px', // Tamaño del logotipo
+              }}
+            >
+              <path d="M6 6h15l-1.5 9H7.5L6 6z" />
+              <circle cx="10" cy="20" r="2" />
+              <circle cx="18" cy="20" r="2" />
+            </svg>
+            Carrito
+        </button>
       </div>
     </header>
   );
