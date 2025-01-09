@@ -1,0 +1,205 @@
+header{
+	width:100vw;
+    background-image:url("/public/imagenes/fondo.png");
+	background-repeat: repeat-x;
+	border:none;
+    background-size: contain;
+}
+.containerHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding-left: 20px;
+} 
+header, main, footer {
+    width: 100%; 
+}
+
+body {
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-size: cover;
+    background-attachment: fixed; 
+    background-position: center;
+    background-color: rgb(248, 248, 220);
+    font-size: 18px;
+    } 
+    
+
+h1 {
+  color:red;  
+  font-family: "Kalnia Glaze", serif;
+  font-optical-sizing: auto;
+  font-weight: 20%;
+  font-style: normal;
+  font-variation-settings:"wdth" 100;
+  font-variant: small-caps;
+  font-size: 36px;
+}
+h2  {
+    color: rgb(24, 24, 104);
+    text-align: center;
+    font-size: 32px;
+}
+h3{
+    color:rgb(70, 7, 7);
+    text-align: center;
+    margin: 45px;
+    font-weight: 20%;
+    font-size: 28px;
+} 
+ .icono {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    padding-left: 20px;
+} 
+ .icono img {
+    margin-right: 15px; 
+}
+
+nav {
+    background-color: rgb(190, 18, 18); 
+    padding: 0px 0; 
+  }
+
+  nav ul {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+    display: flex; 
+    justify-content: center;
+  }
+
+  nav ul li {
+    margin: 20px;
+  }
+
+nav ul li a {
+    text-decoration: none; 
+    color: white; 
+    padding: 0px 20px; 
+    display: block; 
+}
+
+.form-group { 
+    margin-bottom: 15px; 
+} 
+
+ input, textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: block;
+    margin: 0 auto;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.container button img {
+    width: 48px; 
+    height: 48px; 
+    justify-content: right;
+    right: 40px;
+    top: 20px;
+}
+
+div input{
+    padding: 18px;
+    padding-right: 35px;
+    border-radius: 5px 0 0 5px;
+    border: 3px solid;
+    outline: none;
+} 
+
+nav footer-img{
+    padding: 0px;
+   
+    width: 150px;
+}
+nav  li  img {
+    padding: 10px;
+    
+}
+
+.iconoHeader img.logo {
+    width: 50px; 
+    height: auto; 
+     margin-right: 10px; 
+} 
+
+ .iconoHeader img {
+    margin-right: 20px;
+    max-height: 50px;
+}
+
+
+ .containerHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.containerHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+h1.icono img {
+    width: 50px;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; 
+}
+p{
+    color:rgba(27, 26, 26, 0.849);  
+    font-family: "Kalnia Glaze", serif;
+     font-size: 20px;
+     text-align: center;
+
+}
+
+/* icono carrito */
+#cartIcon {
+    font-size: 24px;
+    color: #e9e5db;
+    text-decoration: none;
+    padding: 10px;
+    border: 2px solid #e9e8e6;
+    border-radius: 5px;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px; 
+    cursor: pointer;
+    background-color: #f8b400;
+}
+
+#cartIcon:hover {
+    background-color: #f0ede6;
+    color: white;
+}
+
+#cartIcon i {
+    margin-right: 5px;
+}
