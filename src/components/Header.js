@@ -9,9 +9,16 @@ function Header({ abrirCarrito }) {
           Comida Venezolana
         </h1>
         {/* Llamar a abrirCarrito al hacer clic en el ícono del carrito */}
-        <a href="#" id="cartIcon" onClick={abrirCarrito}>
-          <i className="fas fa-shopping-cart"></i> Carrito
-        </a>
+       <a 
+ 	 href="#" 
+ 	 id="cartIcon" 
+ 	onClick={(e) => {
+ 	   e.preventDefault(); // Prevenir redirección
+  	  abrirCarrito(); // Llamar a la función
+ 	 }}
+	>
+ 	 <i className="fas fa-shopping-cart"></i> Carrito
+	</a>
       </div>
     </header>
   );
